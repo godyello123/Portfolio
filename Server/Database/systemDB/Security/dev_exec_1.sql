@@ -1,3 +1,0 @@
-﻿CREATE LOGIN [dev_exec]
-    WITH PASSWORD = N'@d?Va{a{Lfuxmnmo|eRtjwu0msFT7_&#$!~<elA.unhikYrh', SID = 0x5C77DA6DE7D0914A92F37DD7B9FE9D82, DEFAULT_LANGUAGE = [한국어], CHECK_POLICY = OFF;
-

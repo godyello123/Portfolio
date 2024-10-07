@@ -1,8 +1,0 @@
-﻿CREATE SEQUENCE [dbo].[seq_pc_id]
-    AS BIGINT
-    START WITH 1000000
-    INCREMENT BY 1
-    MINVALUE 1000;
-
-
-
