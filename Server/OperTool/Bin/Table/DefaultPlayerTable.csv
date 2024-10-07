@@ -1,0 +1,3 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ID,PrologueID,ActorID,SkinID,AttackSkillID,Level,Damage,HP,MaxHP,Defence,Critical_Rate_1,Critical_Damage_1,Critical_Rate_2,Critical_Damage_2,Accuracy,Penetration,AttackSpeed,MoveSpeed,Stage_Gold_Up,Stage_Exp_Up,Damage_Rate,HP_Rate,Def_Rate,Option_Attack_Rate,Sweep_Gold_Stage_Up,Sweep_Enchant_Stage_Up,Sweep_Knight_Stage_Up,Sweep_Relic_Stage_Up,ProfileID
+1,1001,1000001,30066,"[10001,10002,10003]",1,10,100,100,0,0,1,0,1,0,,0,0,1,1,1,1,1,1,1,1,1,1,10001

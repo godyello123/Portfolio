@@ -1,0 +1,892 @@
+<!--
+  <Property type="bool" name="m_Bool" default="false"/>
+  <Property type="int32" name="m_Int32" default="-32"/>
+  <Property type="uint32" name="m_UInt32" default="32"/>
+  <Property type="int64" name="m_Int64" default="-64"/>
+  <Property type="uint64" name="m_UInt64" default="64"/>
+  <Property type="float" name="m_Float" default="0.0f"/>
+  <Property type="double" name="m_Double" default="0.0"/>
+  <Property type="string" name="m_String" default=""/>
+  <Property type="list" name="m_String" protocol=""/>
+-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ProtocolList namespace="Packet_P2M" protocol="3000">
+	<!-- preprocessor -->
+	<CSharpHead text='using System;'/>
+	<CSharpHead text='using System.Collections.Generic;'/>
+	<CSharpHead text='using SNetwork;'/>
+	<CSharpHead text='using SCommon;'/>
+	<CSharpHead text='using Global;'/>
+	
+	<!--Base-->
+	<Protocol name="P2M_RequestLogin">
+		<Property type="string" name="m_IP" default=""/>
+		<Property type="string" name="m_DN" default=""/>
+		<Property type="uint32" name="m_Port" default=""/>
+		<Property type="string" name="m_Sign" default=""/>
+		<Property type="int32" name="m_ServerKey" default=""/>
+    <Property type="string" name="m_Version" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultLogin">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int32" name="m_ServerKey" default=""/>
+		<Property type="int32" name="m_State" default=""/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportServerInfos">
+		<Property type="list" name="m_Data" protocol="_ServerInfo"/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestUserLogin">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="int64" name="m_UserSessionKey" default=""/>
+    <Property type="string" name="m_CountryCode" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultUserLogin">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="int64" name="m_UserSessionKey" default=""/>
+    <Property type="string" name="m_CountryCode" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGetRank">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="int32" name="m_RankType" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGetRank">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_UserSessionKey" default=""/>
+		<Property type="int32" name="m_RankType" default=""/>
+		<Property type="list" name="m_RankList" protocol="_RankInfo"/>
+		<Property type="_RankInfo" name="m_MyRank" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGetChatList">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="int32" name="m_ChatType" default=""/>
+		<Property type="int32" name="m_ChannelID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGetChatList">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_UserSessionKey" default=""/>
+		<Property type="_ChatRoomData" name="m_ChatRoomData" default=""/>
+	</Protocol>
+
+  <Protocol name="P2M_RequestPvpMatching">
+    <Property type="string" name="m_DeviceID" default=""/>
+    <Property type="double" name="m_PvpPoint" default=""/>
+    <Property type="_PvpUserData" name="m_PvpUserData" default=""/>
+  </Protocol>
+  <Protocol name="M2P_ResultPvpMatching">
+    <Property type="uint32" name="m_Result" default=""/>
+    <Property type="int64" name="m_UserSessionKey" default=""/>
+    <Property type="list" name="m_PvpUserDataList" protocol="_PvpUserData"/>
+  </Protocol>
+
+  <!--report-->
+	<Protocol name="P2M_ReportServerState">
+		<Property type="bool" name="m_Open" default=""/>
+		<Property type="int32" name="m_UserCount" default=""/>
+		<Property type="int32" name="m_MainFPS" default=""/>
+		<Property type="int32" name="m_DBFPS" default=""/>
+		<Property type="int32" name="m_DBInputCount" default=""/>
+	</Protocol>
+	<Protocol name="P2M_ReportUserRankUpdate">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="_RankInfo" name="m_RankInfo" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportUserUpdate">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="_GlobalUserData" name="m_GlobalUserData" default=""/>
+	</Protocol>
+	<Protocol name="P2M_ReportUserLeave">
+		<Property type="string" name="m_DeviceID" default=""/>
+	</Protocol>
+
+	<Protocol name="M2P_ReportUserKick">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_UserSessionKey" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportRankReward">
+	</Protocol>
+	
+	<Protocol name="P2M_ReportChatSend">
+		<Property type="int32" name="m_ChatType" default=""/>
+		<Property type="int32" name="m_ChannelID" default=""/>
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="_ChatData" name="m_ChatData" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportChatSend">
+		<Property type="int64" name="m_UserSessionKey" default="-1"/>
+		<Property type="int32" name="m_ChatType" default=""/>
+		<Property type="int32" name="m_ChannelID" default=""/>
+		<Property type="_ChatData" name="m_ChatData" default=""/>
+		<Property type="DateTime" name="m_BlockDate" default=""/>
+		<Property type="list" name="m_TargetUsers" protocol="int64"/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportHotTime">
+		<Property type="list" name="m_HotTimeList" protocol="_HotTimeData"/>
+	</Protocol>
+	<Protocol name="M2P_ReportTopRank">
+		<Property type="int32" name="m_ServerID" default=""/>
+		<Property type="int32" name="m_RankType" default=""/>
+		<Property type="list" name="m_RankList" protocol="_RankInfo"/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportInsertPost">
+		<Property type="int64" name="m_UserAccountID" default=""/>
+		<Property type="_PostData" name="m_PostData" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportUpdateEvent">
+		<Property type="_EventData" name="m_EventData" default=""/>
+		<Property type="bool" name="m_Delete" default=""/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportUpdateServerState">
+		<Property type="int32" name="m_ServerState" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportWhiteUserList">
+		<Property type="list" name="m_WhiteList" protocol="_WhiteUser"/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportDeleteWhiteUser">
+		<Property type="_WhiteUser" name="m_WhiteUser" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportInsertWhiteUser">
+		<Property type="_WhiteUser" name="m_WhiteUser" default=""/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportBlockUserList">
+		<Property type="list" name="m_BlockList" protocol="_BlockUser"/>
+	</Protocol>
+	<Protocol name="M2P_ReportDeleteBlockUser">
+		<Property type="_BlockUser" name="m_BlockUser" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportInsertBlockUser">
+		<Property type="_BlockUser" name="m_BlockUser" default=""/>
+	</Protocol>
+	
+	<!-- Notice -->
+	<Protocol name="P2M_RequestNoticeList">
+		<Property type="int64" name="m_UserSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultNoticeList">
+		<Property type="list" name="m_Data" protocol="_NoticeData"/>
+		<Property type="int64" name="m_UserSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportTestNotice">
+		<Property type="_NoticeData" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportNotice">
+		<Property type="int64" name="m_UserSession" default=""/>
+		<Property type="_NoticeData" name="m_Data" default=""/>
+		<Property type="bool" name="m_IsErase" default=""/>
+	</Protocol>
+	
+	<!-- Guild -->
+	<Protocol name="P2M_RequestGuildHome">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildHome">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildData" name="m_Data" default=""/>
+		<Property type="list" name="m_Members" protocol="_GuildMember"/>
+		<Property type="list" name="m_SeasonMembers" protocol="_GuildMember"/>
+		<Property type="_GuildSeasonInfo" name="m_SeasonInfo" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildHome">
+		<Property type="list" name="m_AccountIDs" protocol="int64"/>
+		<Property type="_GuildData" name="m_Data" default=""/>
+		<Property type="list" name="m_Members" protocol="_GuildMember"/>
+		<Property type="list" name="m_SeasonMembers" protocol="_GuildMember"/>
+		<Property type="_GuildSeasonInfo" name="m_SeasonInfo" default=""/>
+	</Protocol>
+
+	<Protocol name="P2M_ReportGuildCreate">
+		<Property type="_GuildData" name="m_Data" default=""/>
+		<Property type="_GuildMember" name="m_Master" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildSearch">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildSearchFilter" name="m_Filter" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildSearch">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildSearchFilter" name="m_Filter" default=""/>
+		<Property type="list" name="m_Guilds" protocol="_GuildData"/>
+	</Protocol>
+
+	<Protocol name="P2M_RequestGuildReadMore">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildReadMore">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildData" name="m_Data" default=""/>
+		<Property type="list" name="m_Members" protocol="_GuildMember"/>
+	</Protocol>
+
+	<Protocol name="P2M_RequestGuildJoin">
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="_GuildMember" name="m_ReqMember" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildJoin">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildData" name="m_Data" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildJoinedIn">
+		<Property type="int64" name="m_TargetAccountID" default=""/>
+		<Property type="_GuildData" name="m_Data" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildJoinDenied">
+		<Property type="int64" name="m_TargetAccountID" default=""/>
+		<Property type="_GuildData" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildList">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="list" name="m_GuildUIDs" protocol="int32"/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildList">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="list" name="m_Guilds" protocol="_GuildData"/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildPendingList">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="list" name="m_PendingGuilds" protocol="_GuildData"/>
+	</Protocol>
+
+	<Protocol name="P2M_RequestGuildLeave">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildLeave">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int64" name="m_GuildPenaltyTime" default=""/>
+	</Protocol>
+
+	<Protocol name="P2M_RequestGuildManage">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="_GuildManageFilter" name="m_Filter" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildManage">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildData" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildKickMember">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int64" name="m_KickMemberAccountID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildKickMember">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int64" name="m_KickMemberAccountID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildKickedOut">
+		<Property type="int64" name="m_KickMemberAccountID" default=""/>
+		<Property type="int64" name="m_GuildPenaltyTime" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildAssignMember">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int64" name="m_TargetAccountID" default=""/>
+		<Property type="uint32" name="m_PermissionType" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildAssignMember">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildMember" name="m_TargetMemberData" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildAssignMember">
+		<Property type="_GuildMember" name="m_TargetMemberData" default=""/>
+	</Protocol>
+
+	<Protocol name="P2M_RequestGuildPendingMemberList">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildPendingMemberList">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="list" name="m_PendingMembers" protocol="_GuildMember"/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildPendingMemberList">
+		<Property type="list" name="m_TargetAccountIDs" protocol="int64"/>
+		<Property type="list" name="m_PendingMembers" protocol="_GuildMember"/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildPendingMemberAccept">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int64" name="m_TargetAccountID" default=""/>
+		<Property type="bool" name="m_IsAccept" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildPendingMemberAccept">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildMember" name="m_TargetMemberData" default=""/>
+		<Property type="bool" name="m_IsAccept" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportGuildPendingMemberErase">
+		<Property type="int64" name="m_TargetAccountID" default=""/>
+		<Property type="list" name="m_GuildUIDs" protocol="int32"/>
+	</Protocol>
+	
+	<Protocol name="M2P_ReportGuildPendingErase">
+		<Property type="int" name="m_GuildUID" default=""/>
+		<Property type="list" name="m_PendingUserAccountIDs" protocol="int64"/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildJackpotBoardData">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildJackpotBoardData">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_GuildJackpotBoard" name="m_Data" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildJackpotBoardData">
+		<Property type="list" name="m_TargetAccountIDs" protocol="int64"/>
+		<Property type="_GuildJackpotBoard" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportGuildJackpotStack">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_SwapStackVal" default=""/>
+		<Property type="int32" name="m_AddStackVal" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportGuildPointStacking">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_AddPoint" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildJackpotTryTransaction">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildJackpotTryTransaction">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_BoardSeq" default=""/>
+		<Property type="int32" name="m_JackpotID" default=""/>
+		<Property type="int32" name="m_JackpotValue" default=""/>
+	</Protocol>
+	<Protocol name="P2M_ReportGuildJackpotTryRollback">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_JackpotID" default=""/>
+	</Protocol>
+	<Protocol name="P2M_ReportGuildJackpotTryCommit">
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_JackpotID" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildCheckInTry">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildCheckInTry">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_GuildPoint" default=""/>
+		<Property type="list" name="m_DropList" protocol="_DropInfo"/>
+	</Protocol>
+	<Protocol name="P2M_ReportGuildCheckInRollback">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_GuildPoint" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestGuildRankRewardTry">
+		<Property type="uint32" name="m_Type" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildRankRewardTry">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="uint32" name="m_Type" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="int32" name="m_LnkRewardTID" default=""/>
+	</Protocol>
+	<Protocol name="P2M_ReportGuildRankRewardRollback">
+		<Property type="uint32" name="m_Type" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ReportGuildRankRewardInfo">
+		<Property type="int64" name="m_TargetAccountID" default=""/>
+		<Property type="list" name="m_Data" protocol="_GuildRankRewardInfo"/>
+	</Protocol>
+	<Protocol name="P2M_RequestGuildIndividualMsg">
+		<Property type="string" name="m_Msg" default=""/>
+		<Property type="int64" name="m_GuildUID" default=""/>
+		<Property type="int64" name="m_AccountID" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultGuildIndividualMsg">
+		<Property type="_GuildMember" name="m_GuildMember" default=""/>
+		<Property type="Int32" name="m_Result" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportGuildBossStageEnd">
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="int32" name="m_GuildUID" default=""/>
+		<Property type="_StageClearDetailData" name="m_Data" default=""/>
+	</Protocol>
+
+	<!-- cheat -->
+	<Protocol name="P2M_RequestCheat">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="uint32" name="m_Cmd" default=""/>
+		<Property type="list" name="m_Args" protocol="string"/>
+	</Protocol>
+	<Protocol name="M2P_ResultCheat">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+	</Protocol>
+	
+	<!-- cheat -->
+	<Protocol name="P2M_RequestAccountDelete">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="uint32" name="m_Platform" default=""/>
+		<Property type="bool" name="m_IsGDPR" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultAccountDelete">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserAccountID" default=""/>
+		<Property type="_BlockUser" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestAccountRecover">
+		<Property type="int64" name="m_ReqUserSession" default=""/>
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="list" name="m_Characters" protocol="_SimpleCharacterInfo"/>
+	</Protocol>
+	<Protocol name="M2P_ResultAccountRecover">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_ReqUserSession" default=""/>
+	</Protocol>
+
+  <!-- raid -->
+  <Protocol name="P2M_RequestRaid_Match">
+    <Property type="string" name="m_DeviceID" default=""/>
+    <Property type="int" name="m_MatchTableID" default=""/>
+    <Property type="string" name="m_Power" default=""/>
+    <Property type="_PvpUserData" name="m_UserRaidData" default=""/>
+  </Protocol>
+  <Protocol name="M2P_ResultRaid_Match">
+    <Property type="int64" name="m_SessionKey" default=""/>
+    <Property type="int" name="m_MaxUserCount" default=""/>
+    <Property type="int" name="m_UserCount" default=""/>
+    <Property type="int" name="m_MatchTableID" default=""/>
+    <Property type="uint32" name="m_Result" default=""/>
+  </Protocol>
+
+  <Protocol name="P2M_RequestRaid_MatchExit">
+    <Property type="string" name="m_DeviceID" default=""/>
+  </Protocol>
+  <Protocol name="M2P_ResultRaid_MatchExit">
+    <Property type="int" name="m_MatchTableID" default=""/>
+    <Property type="int64" name="m_SessionKey" default=""/>
+    <Property type="uint32" name="m_Result" default=""/>
+  </Protocol>
+
+  <Protocol name="M2P_ReportRaid_Match_Count">
+    <Property type="int64" name="m_SessionKey" default=""/>
+    <Property type="int" name="m_UserCount" default=""/>
+  </Protocol>
+
+  <Protocol name="M2P_ReportRaid_Match_Start">
+    <Property type="int64" name="m_SessionKey" default=""/>
+    <Property type="Int64" name="m_BossMaxHP" default=""/>
+    <Property type="Int64" name="m_BossHP" default=""/>
+    <Property type="list" name="m_UserList" protocol="_RaidUserInfo"/>
+  </Protocol>
+
+  <Protocol name="M2P_ReportRaid_In_Start">
+    <Property type="int64" name="m_SessionKey" default=""/>
+  </Protocol>
+
+  <Protocol name="M2P_ReportRaid_In_Damage">
+    <Property type="int64" name="m_SessionKey" default=""/>
+    <Property type="Int64" name="m_BossMaxHP" default=""/>
+    <Property type="Int64" name="m_BossHP" default=""/>
+    <Property type="list" name="m_UserDamageList" protocol="_RaidUserDamageInfo"/>
+  </Protocol>
+
+  <Protocol name="M2P_ReportRaid_In_End">
+    <Property type="int64" name="m_SessionKey" default=""/>
+    <Property type="list" name="m_UserRewardList" protocol="_RaidUserRewardInfo"/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportContentMaintenance">
+    <Property type="list" name="m_Data" protocol="_ContentMaintenance"/>
+  </Protocol>
+  
+  <!--auction-->
+  <Protocol name="P2M_ReportAuctionData">		
+	<Property type="_AuctionItem" name="m_Data" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportAuctionData">		
+	<Property type="_AuctionItem" name="m_Data" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportAuctionAvg">		
+	<Property type="list" name="m_Data" protocol="_AuctionPriceTag"/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportSeasonInfo">
+	<Property type="list" name="m_Data" protocol="_SeasonInfo"/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportBeRegisteredFriend">
+  	<Property type="int64" name="m_Account_ID" default=""/>
+	<Property type="_FriendData" name="m_Data" protocol=""/>
+	<Property type="bool" name="m_IsRegister" default=""/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestDoppelStart">
+	<Property type="int64" name="m_ReqUserAccountID" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ResultDoppelStart">
+	<Property type="uint32" name="m_Result" default=""/>
+	<Property type="int64" name="m_ReqUserAccountID" default=""/>
+	<Property type="_RankInfo" name="m_MyRank" default=""/>
+  </Protocol>
+  
+  <Protocol name="P2M_ReportFriendRegister">
+ 	<Property type="_FriendData" name="m_Target" default=""/>
+	<Property type="_FriendData" name="m_ReqUser" default=""/>
+ 	<Property type="bool" name="m_IsRegister" default=""/>
+  </Protocol>
+
+  <Protocol name="P2M_ReportFriendAccept">
+  	<Property type="_FriendData" name="m_ReqUser" default=""/>
+ 	<Property type="_FriendData" name="m_Target" default=""/>
+ 	<Property type="bool" name="m_IsAccept" default=""/>
+  </Protocol>
+  
+ 
+  <Protocol name="P2M_ReportFriendDelete">
+ 	<Property type="_FriendData" name="m_Target" default=""/>
+	<Property type="_FriendData" name="m_ReqUser" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportRecvFriendPending">
+	<Property type="int64" name="m_Account_ID" default=""/>
+	<Property type="bool" name="m_isRegister" default=""/>
+	<Property type="list" name="m_FriendList" protocol="_FriendData"/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportFriendAccept">
+	<Property type="int64" name="m_AccountID" default=""/>
+	<Property type="bool" name="m_isAccept" default=""/>
+ 	<Property type="_FriendData" name="m_Data" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportFriendDelete">
+	<Property type="int64" name="m_AccountID" default=""/>
+ 	<Property type="_FriendData" name="m_Data" default=""/>
+  </Protocol>
+  
+  <Protocol name="P2M_ReportFriendChatSend">
+		<Property type="int32" name="m_ChatType" default=""/>
+		<Property type="string" name="m_DeviceID" default=""/>
+		<Property type="_ChatData" name="m_ChatData" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportFriendChatSend">
+		<Property type="int64" name="m_UserSessionKey" default="-1"/>
+		<Property type="int32" name="m_ChatType" default=""/>
+		<Property type="_ChatData" name="m_ChatData" default=""/>
+		<Property type="DateTime" name="m_BlockDate" default=""/>
+		<Property type="int64" name="m_Target" protocol="-1"/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestFriendChatDataList">
+  	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ResultFriendChatDataList">
+	<Property type="uint32" name="m_Result" default=""/>
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+	<Property type="list" name="m_ChatList" protocol="_ChatRoomData"/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestFriendInit">
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+	<Property type="list" name="m_FriendList" protocol="_FriendData"/>
+	<Property type="list" name="m_SendPendingList" protocol="_FriendData"/>
+	<Property type="list" name="m_RecvPendingList" protocol="_FriendData"/>
+  </Protocol>
+  
+  <Protocol name="M2P_ResultFriendInit">
+	<Property type="uint32" name="m_Result" default=""/>
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+	<Property type="list" name="m_ChatList" protocol="_ChatRoomData"/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestFriendList">
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ResultFriendList">
+	<Property type="uint32" name="m_Result" default=""/>
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+	<Property type="list" name="m_FriendList" protocol="_FriendData"/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestSendPendingFriendList">
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ResultSendPendingFriendList">
+	<Property type="uint32" name="m_Result" default=""/>
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+	<Property type="list" name="m_FriendList" protocol="_FriendData"/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestRecvPendingFriendList">
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ResultRecvPendingFriendList">
+	<Property type="uint32" name="m_Result" default=""/>
+	<Property type="int64" name="m_ReqUserAccount_ID" default=""/>
+	<Property type="list" name="m_FriendList" protocol="_FriendData"/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportEventGroupInsert">
+ 	<Property type="_EventGroupInfo" name="m_Data" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ReportEventGroupRemove">
+	<Property type="_EventGroupInfo" name="m_Data" default=""/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestOperationLogintoOper">
+	<Property type="string" name="m_ID" default=""/>
+	<Property type="string" name="m_PW" default=""/>
+  </Protocol>
+  
+  <Protocol name="M2P_ResultOperationLogintoOper">
+	<Property type="uint32" name="m_Result" default=""/>
+  </Protocol>
+  
+  <Protocol name="P2M_RequestUpdateHotTimetoOper">
+		<Property type="_HotTimeData" name="m_HotTime" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultUpdateHotTimetoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestInsertPosttoOper">
+		<Property type="_PostData" name="m_PostData" default=""/>
+		<Property type="string" name="m_UserID" default=""/>
+		<Property type="int64" name="m_UserAccountId" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultInsertPosttoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestUpdateEventtoOper">
+		<Property type="_EventData" name="m_EventData" default=""/>
+		<Property type="bool" name="m_Delete" default=""/>
+		<Property type="Int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultUpdateEventtoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="_EventData" name="m_EventData" default=""/>
+		<Property type="bool" name="m_Delete" default=""/>
+		<Property type="Int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestDeleteHotTimetoOper">
+		<Property type="int64" name="m_HotTimeID" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultDeleteHotTimetoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestUpdateServerStatetoOper">
+		<Property type="uint" name="m_State" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultUpdateServerStatetoOper">
+		<Property type="uint" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestServerInfotoOper">
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultServerInfotoOper">
+		<Property type="list" name="m_ServerInfoList" protocol="_ServerData"/>
+		<Property type="int64" name="m_AlluserCount" default=""/>
+		<Property type="int64" name="m_BlockUserCount" default=""/>
+		<Property type="int64" name="m_ChatBlockCount" default=""/>
+		<Property type="uint32" name="m_State" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestKickUsertoOper">
+		<Property type="string" name="m_UserID" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultKickUsertoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportNoticetoOper">
+		<Property type="_NoticeData" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestInsertBlockUserListOper">
+		<Property type="_BlockUser" name="m_Data" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultInsertBlockUserListOper">
+		<Property type="uint" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestInsertBlockChatUsertoOper">
+		<Property type="_BlockChatUser" name="m_Data" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultInsertBlockChatUsertoOper">
+		<Property type="uint" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestLoadBlockChatUsertoOper">
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultLoadBlockChatUsertoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="list" name="m_Data" protocol="_BlockChatUser"/>
+		<property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name = "P2M_RequestInsertWhiteUsertoOper">
+		<Property type="_WhiteUser" name="m_Data" default=""/>
+		<property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name = "M2P_ResultInsertWhiteUsertoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name = "P2M_RequestDeleteWhiteUsertoOper">
+		<Property type="string" name="m_DeviceID" default=""/>
+		<property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+		<Protocol name = "M2P_ResultDeleteWhiteUsertoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	
+	<Protocol name="P2M_RequestUpdateEventGrouptoOper">
+		<Property type="_EventGroupInfo" name="m_Data" default=""/>
+		<Property type="bool" name="m_ISDelete" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="M2P_ResultUpdateEventGrouptoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	
+	<Protocol name="P2M_RequestEventGroupRefreshtoOper">
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="M2P_ResultEventGroupRefreshtoOper">
+		<Property type="uint32" name="m_Result" default=""/>
+		<Property type="list" name="m_Data" protocol="_EventGroupInfo"/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportContentMaintenance">
+		<Property type="_ContentMaintenance" name="m_ContentMaintenance" default=""/>
+	</Protocol>	
+	
+	<Protocol name="P2M_ReportDeleteNoticetoOper">
+		<Property type="_NoticeData" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestLoadSystemNoticetoOper">
+		<Property type="int32" name="m_Begin" default=""/>
+		<Property type="int32" name="m_End" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+	<Protocol name="M2P_ResultLoadSystemNoticetoOper">
+		<Property type="int64" name="m_OperSession" default=""/>
+		<Property type="list" name="m_Data" protocol="_NoticeData"/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportUpdateBlockUserListOper">
+		<Property type="_BlockUser" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_ReportDeleteBlockUserListOper">
+		<Property type="_BlockUser" name="m_Data" default=""/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestLoadBlockUsertoOper">
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultLoadBlockUsertoOper">
+		<Property type="int64" name="m_OperSession" default=""/>
+		<Property type="list" name="m_Data" protocol="_BlockUser"/>
+	</Protocol>
+	
+	<Protocol name="P2M_RequestInsertBlockListMultitoOper">
+		<Property type="list" name="m_Data" protocol="_BlockUser"/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	<Protocol name="M2P_ResultInsertBlockListMultitoOper">
+		<Property type="uint" name="m_Result" default=""/>
+		<Property type="int64" name="m_OperSession" default=""/>
+	</Protocol>
+	
+</ProtocolList>

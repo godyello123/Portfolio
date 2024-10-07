@@ -1,0 +1,13 @@
+C:\Works\ProjectK\Server\Bin\ParquetSharpNative.dll
+C:\Works\ProjectK\Server\Bin\mongocrypt.dll
+C:\Works\ProjectK\Server\Bin\PlayServer.exe.config
+C:\Works\ProjectK\Server\Bin\PlayServer.exe
+C:\Works\ProjectK\Server\Bin\PlayServer.pdb
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.csproj.AssemblyReference.cache
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.FormMain.resources
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.Properties.Resources.resources
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.csproj.GenerateResource.cache
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.csproj.CoreCompileInputs.cache
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.csproj.Up2Date
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.exe
+C:\Works\ProjectK\Server\Source\PlayServer\obj\x64\Debug\PlayServer.pdb

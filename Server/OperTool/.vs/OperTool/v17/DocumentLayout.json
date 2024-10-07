@@ -1,0 +1,1747 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Works\\ProjectK\\Server\\OperTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_systempost_send.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_systempost_send.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\table\\itemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\table\\itemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\scombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\scombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\6096b12b41ff068d09751616f9b7af8f6f09f28764e33350214dfbfd8b875805\\ComboBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_systempost_send.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_systempost_send.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_systempost_send.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_systempost_send.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_infomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_infomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\msgsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\msgsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_systempost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_systempost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|c:\\works\\projectk\\server\\opertool\\opertool\\panel\\panel_systempost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_systempost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\common\\scsvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\common\\scsvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\be9bf443113e8f5f78b371763d1973d3e678d154b1c86f93804da00533dc09e4\\Dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\operviewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\operviewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|c:\\works\\projectk\\server\\opertool\\opertool\\main\\tableloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\tableloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\mongodbquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\mongodbquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\pannelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\pannelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\pannelbase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\pannelbase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_gamelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_gamelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\form\\formwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\form\\formwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_gamelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_gamelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\form\\formmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\form\\formmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\mongodbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\mongodbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\common\\smongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\common\\smongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_gamelog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_gamelog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\form\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\form\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\table\\operlogconnecttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\table\\operlogconnecttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_bulkpostsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_bulkpostsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\panelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\panelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\form\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\form\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\table\\operaccounttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\table\\operaccounttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sgridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sgridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_blocklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_blocklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_system_notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_system_notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_system_coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_system_coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\f559ad460d237e72cc442503569a157498a80dc5faaba0e71a41e2051ab1a6e3\\Convert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\operdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\operdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\scombobox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\scombobox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_system_coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_system_coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_system_notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_system_notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_systempost.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_systempost.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\slabel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\slabel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\slabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\slabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\4c6344d779eabfec17179f5a27f4355779464d5dd85208575ad011e48fee58d5\\MetroMessageBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\c94553216895ed0e2320efc148bbaf0ae1ab913e7ef2c0d9a6f9d465a1352903\\ListControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\messgaeboxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\messgaeboxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_contents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_contents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\pannelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\pannelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_infomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_infomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_contents.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_contents.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_infomation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_infomation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\873171263ce29e30d7147091b5ee2ea223343ae0f31417d80e9be0e848a074e4\\MetroComboBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\scheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\scheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_post.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_post.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_blocklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_blocklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_whitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_whitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\table\\operstringtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\table\\operstringtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\stextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\stextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\stextbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\stextbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\stextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\stextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sgridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sgridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sdatetimepicker.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sdatetimepicker.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_bulkpostsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_bulkpostsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_blocklist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_blocklist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\1cfd75d69c890cbb91b8192638aaa96ef9f473a44c4c814dffa093d8ade745ab\\__Error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\slabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\slabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\stabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\stabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\stabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\stabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\slinklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\slinklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\slinklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\slinklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\scheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\scheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_user_receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_user_receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|c:\\works\\projectk\\server\\source\\global\\serverdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|c:\\works\\projectk\\client\\assets\\scripts\\share\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|c:\\works\\projectk\\client\\assets\\scripts\\share\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|c:\\works\\projectk\\server\\source\\global\\serverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\scheckbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\scheckbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\stabcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\stabcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\slinklabel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\slinklabel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\sbutton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\sbutton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\controls\\scombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\controls\\scombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\common\\sdatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\common\\sdatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\share\\packet\\packet_o2m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\share\\packet\\packet_o2m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\main\\msghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\main\\msghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|c:\\works\\projectk\\client\\assets\\scripts\\share\\packet\\packet_p2g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_system_coupon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_system_coupon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|C:\\Works\\ProjectK\\Server\\OperTool\\opertool\\panel\\panel_whitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75312AB9-EC74-470D-AB17-A3E568B2C60E}|OperTool\\OperTool.csproj|solutionrelative:opertool\\panel\\panel_whitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Panel_SystemPost_Send.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost_Send.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_SystemPost_Send.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost_Send.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_SystemPost_Send.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T05:51:23.041Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Panel_SystemPost_Send.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost_Send.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_SystemPost_Send.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost_Send.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_SystemPost_Send.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAEwHQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:12:51.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Panel_SystemPost_Send.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost_Send.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_SystemPost_Send.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost_Send.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_SystemPost_Send.Designer.cs",
+              "ViewState": "AQIAAMoCAAAAAAAAAAAnwOsCAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T04:03:39.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SCombobox.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCombobox.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SCombobox.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCombobox.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SCombobox.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:29:48.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Panel_User_Infomation.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Infomation.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Infomation.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Infomation.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Infomation.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:35:05.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComboBox.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\6096b12b41ff068d09751616f9b7af8f6f09f28764e33350214dfbfd8b875805\\ComboBox.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\6096b12b41ff068d09751616f9b7af8f6f09f28764e33350214dfbfd8b875805\\ComboBox.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\6096b12b41ff068d09751616f9b7af8f6f09f28764e33350214dfbfd8b875805\\ComboBox.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\6096b12b41ff068d09751616f9b7af8f6f09f28764e33350214dfbfd8b875805\\ComboBox.cs",
+              "ViewState": "AQIAAHIBAAAAAAAAAAAAAJABAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:21:50.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemTable.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\ItemTable.cs",
+              "RelativeDocumentMoniker": "OperTool\\Table\\ItemTable.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\ItemTable.cs",
+              "RelativeToolTip": "OperTool\\Table\\ItemTable.cs",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAnwBgBAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T11:51:40.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MsgSender.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MsgSender.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\MsgSender.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MsgSender.cs",
+              "RelativeToolTip": "OperTool\\Main\\MsgSender.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T02:19:59.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Panel_SystemPost.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_SystemPost.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_SystemPost.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAuwEQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T22:09:17.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SCSVReader.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Common\\SCSVReader.cs",
+              "RelativeDocumentMoniker": "OperTool\\Common\\SCSVReader.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Common\\SCSVReader.cs",
+              "RelativeToolTip": "OperTool\\Common\\SCSVReader.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T11:51:36.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dictionary.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\be9bf443113e8f5f78b371763d1973d3e678d154b1c86f93804da00533dc09e4\\Dictionary.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\be9bf443113e8f5f78b371763d1973d3e678d154b1c86f93804da00533dc09e4\\Dictionary.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\be9bf443113e8f5f78b371763d1973d3e678d154b1c86f93804da00533dc09e4\\Dictionary.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\be9bf443113e8f5f78b371763d1973d3e678d154b1c86f93804da00533dc09e4\\Dictionary.cs",
+              "ViewState": "AQIAAPEFAAAAAAAAAAAAAAwGAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T11:51:36.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Panel_SystemPost.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_SystemPost.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_SystemPost.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T02:44:42.093Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TableLoader.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\TableLoader.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\TableLoader.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\TableLoader.cs",
+              "RelativeToolTip": "OperTool\\Main\\TableLoader.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwC0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T03:19:13.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormManager.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\FormManager.cs",
+              "RelativeDocumentMoniker": "OperTool\\Form\\FormManager.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\FormManager.cs",
+              "RelativeToolTip": "OperTool\\Form\\FormManager.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAewDcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T22:18:39.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MongoDBManager.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MongoDBManager.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\MongoDBManager.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MongoDBManager.cs",
+              "RelativeToolTip": "OperTool\\Main\\MongoDBManager.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvxMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:22:52.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OperViewData.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\OperViewData.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\OperViewData.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\OperViewData.cs",
+              "RelativeToolTip": "OperTool\\Main\\OperViewData.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAnwC4BAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T05:24:07.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ThrowHelper.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T11:51:27.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Panel_GameLog.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_GameLog.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_GameLog.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_GameLog.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_GameLog.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:50:18.793Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Panel_GameLog.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_GameLog.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_GameLog.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_GameLog.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_GameLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:24:25.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PannelBase.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\PannelBase.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\PannelBase.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\PannelBase.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\PannelBase.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T11:03:58.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PannelBase.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\PannelBase.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\PannelBase.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\PannelBase.cs",
+              "RelativeToolTip": "OperTool\\Panel\\PannelBase.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwCgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T23:10:06.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form1.cs",
+              "RelativeDocumentMoniker": "OperTool\\Form\\Form1.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form1.cs",
+              "RelativeToolTip": "OperTool\\Form\\Form1.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAADgv3EAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:29:04.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MongoDBQuery.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MongoDBQuery.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\MongoDBQuery.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MongoDBQuery.cs",
+              "RelativeToolTip": "OperTool\\Main\\MongoDBQuery.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAADwvysAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:03:53.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormWork.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\FormWork.cs",
+              "RelativeDocumentMoniker": "OperTool\\Form\\FormWork.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\FormWork.cs",
+              "RelativeToolTip": "OperTool\\Form\\FormWork.cs",
+              "ViewState": "AQIAAF4BAAAAAAAAAAAQwHIBAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T10:42:18.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Panel_GameLog.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_GameLog.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_GameLog.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_GameLog.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_GameLog.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T03:05:01.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\NetManager.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\NetManager.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\NetManager.cs",
+              "RelativeToolTip": "OperTool\\Main\\NetManager.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAnwKIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T19:55:17.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SMongoDB.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Common\\SMongoDB.cs",
+              "RelativeDocumentMoniker": "OperTool\\Common\\SMongoDB.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Common\\SMongoDB.cs",
+              "RelativeToolTip": "OperTool\\Common\\SMongoDB.cs",
+              "ViewState": "AQIAANsAAAAAAAAAAAAewOoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:44:56.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form1.cs",
+              "RelativeDocumentMoniker": "OperTool\\Form\\Form1.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Form\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:23:02.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Form2.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form2.cs",
+              "RelativeDocumentMoniker": "OperTool\\Form\\Form2.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form2.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Form\\Form2.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T22:22:59.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OperLogConnectTable.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\OperLogConnectTable.cs",
+              "RelativeDocumentMoniker": "OperTool\\Table\\OperLogConnectTable.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\OperLogConnectTable.cs",
+              "RelativeToolTip": "OperTool\\Table\\OperLogConnectTable.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAC8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:32:13.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Panel_BulkPostSend.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BulkPostSend.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_BulkPostSend.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BulkPostSend.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_BulkPostSend.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:43:07.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form2.cs",
+              "RelativeDocumentMoniker": "OperTool\\Form\\Form2.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Form\\Form2.cs",
+              "RelativeToolTip": "OperTool\\Form\\Form2.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAEwEUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T22:23:10.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PanelManager.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\PanelManager.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\PanelManager.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\PanelManager.cs",
+              "RelativeToolTip": "OperTool\\Main\\PanelManager.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAApwEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T22:14:34.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OperAccountTable.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\OperAccountTable.cs",
+              "RelativeDocumentMoniker": "OperTool\\Table\\OperAccountTable.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\OperAccountTable.cs",
+              "RelativeToolTip": "OperTool\\Table\\OperAccountTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:58:46.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SGridView.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SGridView.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SGridView.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SGridView.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SGridView.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAApwNYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:12:06.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Panel_BlockList.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BlockList.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_BlockList.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BlockList.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_BlockList.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAWwGoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T22:13:59.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Panel_System_Coupon.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Coupon.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_System_Coupon.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Coupon.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_System_Coupon.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAApwN4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T03:18:13.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Panel_Server.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Server.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Server.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Server.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Server.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAtwDwAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:18:44.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Panel_User_Post.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Post.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Post.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Post.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Post.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAtwLQAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T18:18:30.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SCombobox.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCombobox.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SCombobox.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCombobox.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SCombobox.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:30:15.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Panel_System_Notice.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Notice.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_System_Notice.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Notice.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_System_Notice.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAApwIMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T22:54:47.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Convert.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\f559ad460d237e72cc442503569a157498a80dc5faaba0e71a41e2051ab1a6e3\\Convert.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\f559ad460d237e72cc442503569a157498a80dc5faaba0e71a41e2051ab1a6e3\\Convert.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\f559ad460d237e72cc442503569a157498a80dc5faaba0e71a41e2051ab1a6e3\\Convert.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\f559ad460d237e72cc442503569a157498a80dc5faaba0e71a41e2051ab1a6e3\\Convert.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAnwP8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:05:23.693Z",
+              "EditorCaption": " [\uC77D\uAE30 \uC804\uC6A9]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Panel_System_Coupon.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Coupon.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_System_Coupon.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Coupon.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_System_Coupon.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T03:18:09.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OperDefine.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\OperDefine.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\OperDefine.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\OperDefine.cs",
+              "RelativeToolTip": "OperTool\\Main\\OperDefine.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwCsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T19:33:54.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Panel_Server.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Server.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Server.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Server.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Server.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:18:41.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Panel_Home.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Home.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Home.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Home.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Home.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:19:58.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Panel_System_Notice.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Notice.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_System_Notice.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Notice.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_System_Notice.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T22:54:43.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Panel_Ranking.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Ranking.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Ranking.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Ranking.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Ranking.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:42:32.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Panel_Schedule.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Schedule.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Schedule.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Schedule.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Schedule.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:30:33.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Panel_SystemPost.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_SystemPost.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_SystemPost.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_SystemPost.Designer.cs",
+              "ViewState": "AQIAAE0CAAAAAAAAAAAtwGYCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T05:32:58.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SLabel.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLabel.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SLabel.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLabel.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SLabel.Designer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:42:40.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SLabel.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLabel.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SLabel.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLabel.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SLabel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:37:54.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ListControl.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\c94553216895ed0e2320efc148bbaf0ae1ab913e7ef2c0d9a6f9d465a1352903\\ListControl.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\c94553216895ed0e2320efc148bbaf0ae1ab913e7ef2c0d9a6f9d465a1352903\\ListControl.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\c94553216895ed0e2320efc148bbaf0ae1ab913e7ef2c0d9a6f9d465a1352903\\ListControl.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\c94553216895ed0e2320efc148bbaf0ae1ab913e7ef2c0d9a6f9d465a1352903\\ListControl.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAnwHIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T04:31:59.93Z",
+              "EditorCaption": " [\uC77D\uAE30 \uC804\uC6A9]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PannelBase.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\PannelBase.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\PannelBase.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\PannelBase.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\PannelBase.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T23:10:04.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MetroMessageBox.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\4c6344d779eabfec17179f5a27f4355779464d5dd85208575ad011e48fee58d5\\MetroMessageBox.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\4c6344d779eabfec17179f5a27f4355779464d5dd85208575ad011e48fee58d5\\MetroMessageBox.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\4c6344d779eabfec17179f5a27f4355779464d5dd85208575ad011e48fee58d5\\MetroMessageBox.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\4c6344d779eabfec17179f5a27f4355779464d5dd85208575ad011e48fee58d5\\MetroMessageBox.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAnwE0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:21:52.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MessgaeBoxManager.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MessgaeBoxManager.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\MessgaeBoxManager.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MessgaeBoxManager.cs",
+              "RelativeToolTip": "OperTool\\Main\\MessgaeBoxManager.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAnwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T05:21:19.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Panel_User_Item.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Item.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Item.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Item.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Item.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T04:56:24.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Panel_User_Item.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Item.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Item.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Item.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Item.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T23:09:13.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Panel_User_Infomation.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Infomation.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Infomation.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Infomation.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Infomation.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T04:56:21.856Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Panel_User_Contents.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Contents.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Contents.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Contents.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Contents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T22:41:43.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Panel_User_Contents.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Contents.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Contents.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Contents.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Contents.Designer.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwBoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T00:41:11.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "MetroComboBox.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\873171263ce29e30d7147091b5ee2ea223343ae0f31417d80e9be0e848a074e4\\MetroComboBox.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\873171263ce29e30d7147091b5ee2ea223343ae0f31417d80e9be0e848a074e4\\MetroComboBox.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\873171263ce29e30d7147091b5ee2ea223343ae0f31417d80e9be0e848a074e4\\MetroComboBox.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\873171263ce29e30d7147091b5ee2ea223343ae0f31417d80e9be0e848a074e4\\MetroComboBox.cs",
+              "ViewState": "AQIAABMCAAAAAAAAAAAnwCYCAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:21:52.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SCheckBox.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCheckBox.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SCheckBox.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCheckBox.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SCheckBox.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAWwBQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:56:38.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Panel_User_Infomation.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Infomation.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Infomation.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Infomation.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Infomation.Designer.cs",
+              "ViewState": "AQIAAKYDAAAAAAAAAAAMwLkDAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T11:05:22.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "OperStringTable.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\OperStringTable.cs",
+              "RelativeDocumentMoniker": "OperTool\\Table\\OperStringTable.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Table\\OperStringTable.cs",
+              "RelativeToolTip": "OperTool\\Table\\OperStringTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:59:56.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Panel_User_Post.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Post.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Post.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Post.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Post.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T04:02:06.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Panel_User_Post.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Post.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Post.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Post.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Post.Designer.cs",
+              "ViewState": "AQIAAH8FAAAAAAAAAAAWwJAFAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T18:45:16.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Panel_BlockList.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BlockList.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_BlockList.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BlockList.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_BlockList.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T11:00:01.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Panel_WhiteList.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_WhiteList.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_WhiteList.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_WhiteList.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_WhiteList.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T22:16:02.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Panel_User_Receipt.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Receipt.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Receipt.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Receipt.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Receipt.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:53:14.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "STextBox.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STextBox.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\STextBox.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STextBox.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\STextBox.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:53:37.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "SDateTimePicker.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SDateTimePicker.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SDateTimePicker.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SDateTimePicker.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SDateTimePicker.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAEwBcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:01:21.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "STextBox.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STextBox.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\STextBox.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STextBox.cs",
+              "RelativeToolTip": "OperTool\\Controls\\STextBox.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAWwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:51:27.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "STextBox.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STextBox.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\STextBox.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STextBox.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\STextBox.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:51:23.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "SGridView.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SGridView.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SGridView.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SGridView.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\SGridView.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T03:25:16.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "SButton.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SButton.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SButton.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SButton.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SButton.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAEwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:34:37.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "SDateTimePicker.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SDateTimePicker.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SDateTimePicker.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SDateTimePicker.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SDateTimePicker.Designer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:01:41.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "SDateTimePicker.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SDateTimePicker.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SDateTimePicker.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SDateTimePicker.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\SDateTimePicker.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:00:20.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "SButton.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SButton.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SButton.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SButton.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\SButton.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:34:34.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Panel_BulkPostSend.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BulkPostSend.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_BulkPostSend.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BulkPostSend.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_BulkPostSend.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAlwB8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:43:10.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "__Error.cs",
+              "DocumentMoniker": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\1cfd75d69c890cbb91b8192638aaa96ef9f473a44c4c814dffa093d8ade745ab\\__Error.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\1cfd75d69c890cbb91b8192638aaa96ef9f473a44c4c814dffa093d8ade745ab\\__Error.cs",
+              "ToolTip": "C:\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\1cfd75d69c890cbb91b8192638aaa96ef9f473a44c4c814dffa093d8ade745ab\\__Error.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\godye\\AppData\\Local\\Temp\\.vsdbgsrc\\1cfd75d69c890cbb91b8192638aaa96ef9f473a44c4c814dffa093d8ade745ab\\__Error.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T10:30:03.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Panel_BlockList.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BlockList.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_BlockList.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_BlockList.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_BlockList.Designer.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAwG0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T23:31:09.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "SLabel.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLabel.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SLabel.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLabel.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\SLabel.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:37:48.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Panel_Home.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Home.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Home.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Home.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Home.Designer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAWwCQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T11:01:51.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "STabControl.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STabControl.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\STabControl.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STabControl.cs",
+              "RelativeToolTip": "OperTool\\Controls\\STabControl.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAEwBQAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:48:33.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "STabControl.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STabControl.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\STabControl.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STabControl.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\STabControl.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:48:27.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "SLinkLabel.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLinkLabel.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SLinkLabel.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLinkLabel.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SLinkLabel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAEwBQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:46:38.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "SLinkLabel.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLinkLabel.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SLinkLabel.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLinkLabel.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\SLinkLabel.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:46:26.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "SCheckBox.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCheckBox.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SCheckBox.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCheckBox.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\SCheckBox.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:56:34.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Panel_User_Receipt.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Receipt.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_User_Receipt.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_User_Receipt.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_User_Receipt.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAlwBMAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T10:20:11.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Panel_Schedule.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Schedule.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Schedule.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Schedule.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Schedule.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAlwBMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:30:36.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Panel_Ranking.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Ranking.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Ranking.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Ranking.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Ranking.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAlwBMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:42:36.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Panel_Home.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Home.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Home.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Home.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Home.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAlwBMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:18:13.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Client\\Assets\\Scripts\\Share\\GameData.cs",
+              "RelativeDocumentMoniker": "..\\..\\Client\\Assets\\Scripts\\Share\\GameData.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Client\\Assets\\Scripts\\Share\\GameData.cs",
+              "RelativeToolTip": "..\\..\\Client\\Assets\\Scripts\\Share\\GameData.cs",
+              "ViewState": "AQIAAAYCAAAAAAAAAAAnwBgCAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T22:27:39.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ServerData.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\Source\\Global\\ServerData.cs",
+              "RelativeDocumentMoniker": "..\\Source\\Global\\ServerData.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\Source\\Global\\ServerData.cs",
+              "RelativeToolTip": "..\\Source\\Global\\ServerData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:38:48.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ServerDefine.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\Source\\Global\\ServerDefine.cs",
+              "RelativeDocumentMoniker": "..\\Source\\Global\\ServerDefine.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\Source\\Global\\ServerDefine.cs",
+              "RelativeToolTip": "..\\Source\\Global\\ServerDefine.cs",
+              "ViewState": "AQIAAEkBAAAAAAAAAAAWwCgBAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:38:50.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Define.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Client\\Assets\\Scripts\\Share\\Define.cs",
+              "RelativeDocumentMoniker": "..\\..\\Client\\Assets\\Scripts\\Share\\Define.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Client\\Assets\\Scripts\\Share\\Define.cs",
+              "RelativeToolTip": "..\\..\\Client\\Assets\\Scripts\\Share\\Define.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAzwLMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:39:02.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "SCheckBox.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCheckBox.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SCheckBox.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCheckBox.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SCheckBox.Designer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAWwB4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:00:43.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "SLinkLabel.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLinkLabel.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SLinkLabel.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SLinkLabel.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SLinkLabel.Designer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAWwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:53:30.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "STabControl.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STabControl.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\STabControl.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\STabControl.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\STabControl.Designer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAWwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:53:33.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Panel_Server.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Server.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_Server.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_Server.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_Server.Designer.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAwIUAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:35:29.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "SButton.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SButton.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SButton.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SButton.Designer.cs",
+              "RelativeToolTip": "OperTool\\Controls\\SButton.Designer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAWwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:35:03.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "SCombobox.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCombobox.cs",
+              "RelativeDocumentMoniker": "OperTool\\Controls\\SCombobox.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Controls\\SCombobox.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "OperTool\\Controls\\SCombobox.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:29:44.884Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "SDateManager.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Common\\SDateManager.cs",
+              "RelativeDocumentMoniker": "OperTool\\Common\\SDateManager.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Common\\SDateManager.cs",
+              "RelativeToolTip": "OperTool\\Common\\SDateManager.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAApwCAAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:35:54.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "MsgHandler.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MsgHandler.cs",
+              "RelativeDocumentMoniker": "OperTool\\Main\\MsgHandler.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Main\\MsgHandler.cs",
+              "RelativeToolTip": "OperTool\\Main\\MsgHandler.cs",
+              "ViewState": "AQIAADUBAAAAAAAAAAASwEcBAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T10:41:26.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Packet_O2M.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Share\\Packet\\Packet_O2M.cs",
+              "RelativeDocumentMoniker": "OperTool\\Share\\Packet\\Packet_O2M.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Share\\Packet\\Packet_O2M.cs",
+              "RelativeToolTip": "OperTool\\Share\\Packet\\Packet_O2M.cs",
+              "ViewState": "AQIAACcEAAAAAAAAAAAjwDwEAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T00:45:08.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Packet_P2G.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Client\\Assets\\Scripts\\Share\\Packet\\Packet_P2G.cs",
+              "RelativeDocumentMoniker": "..\\..\\Client\\Assets\\Scripts\\Share\\Packet\\Packet_P2G.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Client\\Assets\\Scripts\\Share\\Packet\\Packet_P2G.cs",
+              "RelativeToolTip": "..\\..\\Client\\Assets\\Scripts\\Share\\Packet\\Packet_P2G.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T00:53:45.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Panel_System_Coupon.Designer.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Coupon.Designer.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_System_Coupon.Designer.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_System_Coupon.Designer.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_System_Coupon.Designer.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAMwK4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T21:50:48.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Panel_WhiteList.cs",
+              "DocumentMoniker": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_WhiteList.cs",
+              "RelativeDocumentMoniker": "OperTool\\Panel\\Panel_WhiteList.cs",
+              "ToolTip": "C:\\Works\\ProjectK\\Server\\OperTool\\OperTool\\Panel\\Panel_WhiteList.cs",
+              "RelativeToolTip": "OperTool\\Panel\\Panel_WhiteList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T22:16:04.808Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

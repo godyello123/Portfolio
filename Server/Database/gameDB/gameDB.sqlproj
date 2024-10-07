@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>gameDB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{94fef3e4-5fa1-4295-845d-d6f64375b25f}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>gameDB</RootNamespace>
+    <AssemblyName>gameDB</AssemblyName>
+    <ModelCollation>1042,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>Korean_Wansung_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\tb_character_mission.sql" />
+    <Build Include="dbo\Tables\tb_character_pref.sql" />
+    <Build Include="dbo\Tables\tb_character_knight_preset.sql" />
+    <Build Include="dbo\Tables\tb_character_equip_preset.sql" />
+    <Build Include="dbo\Tables\tb_sys_error_log.sql" />
+    <Build Include="dbo\Tables\tb_character_item.sql" />
+    <Build Include="dbo\Tables\tb_character_skill_preset.sql" />
+    <Build Include="dbo\Tables\tb_character_stage.sql" />
+    <Build Include="dbo\Tables\tb_character_coin.sql" />
+    <Build Include="dbo\Tables\tb_character_growth_gold.sql" />
+    <Build Include="dbo\Tables\tb_character_growth_level.sql" />
+    <Build Include="Security\dev_exec.sql" />
+    <Build Include="Security\RoleMemberships.sql" />
+    <Build Include="dbo\Stored Procedures\sp_sys_error_log_create.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_create.sql" />
+    <Build Include="dbo\Stored Procedures\sp_json_update_item_count.sql" />
+    <Build Include="dbo\Stored Procedures\sp_json_update_coin_count.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_logout.sql" />
+    <Build Include="dbo\Tables\tb_character_gacha.sql" />
+    <Build Include="dbo\Stored Procedures\sp_json_delete_item_count.sql" />
+    <Build Include="dbo\Tables\tb_test_iap_price.sql" />
+    <Build Include="dbo\Tables\tb_system_schedule.sql" />
+    <Build Include="dbo\Tables\tb_system_post.sql" />
+    <Build Include="dbo\Tables\tb_system_event.sql" />
+    <Build Include="dbo\Tables\tb_system_coupon.sql" />
+    <Build Include="dbo\Tables\tb_character_stage_skill.sql" />
+    <Build Include="dbo\Tables\tb_character_skill.sql" />
+    <Build Include="dbo\Tables\tb_character_shop_iap_receipt.sql" />
+    <Build Include="dbo\Tables\tb_character_shop.sql" />
+    <Build Include="dbo\Tables\tb_character_relic.sql" />
+    <Build Include="dbo\Tables\tb_character_rank_reward.sql" />
+    <Build Include="dbo\Tables\tb_character_quest_repeat.sql" />
+    <Build Include="dbo\Tables\tb_character_quest_pass.sql" />
+    <Build Include="dbo\Tables\tb_character_quest_main.sql" />
+    <Build Include="dbo\Tables\tb_character_quest_event.sql" />
+    <Build Include="dbo\Tables\tb_character_quest_daily.sql" />
+    <Build Include="dbo\Tables\tb_character_quest_checkin.sql" />
+    <Build Include="dbo\Tables\tb_character_post.sql" />
+    <Build Include="dbo\Tables\tb_character_event_shop.sql" />
+    <Build Include="dbo\Tables\tb_character_event_roulette.sql" />
+    <Build Include="dbo\Tables\tb_character_event.sql" />
+    <Build Include="dbo\Tables\tb_character_coupon.sql" />
+    <Build Include="dbo\Tables\tb_character_ads_buff.sql" />
+    <Build Include="dbo\Tables\tb_character.sql" />
+    <Build Include="dbo\Stored Procedures\sp_user_shop_iap_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_system_post_upsert.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_system_post_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_system_coupon_upsert.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_system_coupon_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_relic_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_quest_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_post_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_post_insert.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_info_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_growthlevel_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_growthgold_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_tool_character_gacha_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_system_post_upsert.sql" />
+    <Build Include="dbo\Stored Procedures\sp_system_load_schedule.sql" />
+    <Build Include="dbo\Stored Procedures\sp_system_load_rank_pvp.sql" />
+    <Build Include="dbo\Stored Procedures\sp_system_load_rank_main.sql" />
+    <Build Include="dbo\Stored Procedures\sp_system_load_event.sql" />
+    <Build Include="dbo\Stored Procedures\sp_system_coupon_upsert.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_view_user_info.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_stage_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_stage_sweep.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_stage_skill_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_stage_save.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_skill_preset_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_skill_open.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_skill_level_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_shop_buy.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_relic_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_relic_enchant.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_rank_rewared.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_rank_reward_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_rank_reward_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_repeat_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_repeat_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_pass_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_pass_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_main_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_main_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_event_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_event_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_daily_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_daily_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_checkIn_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_quest_checkIn_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_pref_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_post_reward.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_post_remove.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_post_read.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_post_load.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_nickname_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_mission_rewarded.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_mission_list_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_login.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_level_growth_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_sell.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_rand_option_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_level_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_knight_upgrade.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_knight_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_knight_preset_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_count_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_count_list_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_consume.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_item_breakthrough.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_gold_growth_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_gacha_level_rewared.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_gacha.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_event_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_event_shop_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_event_roulette_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_equip_prest_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_coupon_vaild.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_coupon_use.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_coin_upsert.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_coin_count_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_coin_count_list_update.sql" />
+    <Build Include="dbo\Stored Procedures\sp_character_ads_buff_update.sql" />
+  </ItemGroup>
+</Project>

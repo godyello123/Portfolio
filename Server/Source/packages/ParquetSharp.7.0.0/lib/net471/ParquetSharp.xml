@@ -1,0 +1,548 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParquetSharp</name>
+    </assembly>
+    <members>
+        <member name="T:ParquetSharp.AadPrefixVerifier">
+            <summary>
+            Verifies identity(AAD Prefix) of individual file, or of file collection in a data set.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.AadPrefixVerifier.Verify(System.String)">
+            <summary>
+            Verify the AAD file prefix.
+            Throw exception if the prefix is not okay.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.AadPrefixVerifier.CreateGcHandle">
+            <summary>
+            The native code owns a GC handle on the given instance of AadPrefixVerifier.
+            This is the reverse from the rest of ParquetSharp where C# owns a native handle into arrow::parquet.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.AesKey">
+            <summary>
+            Internal fixed size structure for easily moving AES keys to and from C++.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.BufferedReader`1">
+            <summary>
+            Buffer the reads from the low-level Parquet API when dealing with multi-level structs.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ByteArray">
+            <summary>
+            Represents a Parquet array of contiguous bytes.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ByteArrayReaderCache`2">
+            <summary>
+            Cache duplicated ByteArray / FixedByteArray values when reading and converting them to their logical form.
+            This is particularly useful when reading a lot of duplicate strings.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ByteBuffer">
+            <summary>
+            Pool the ByteArray allocations into few buffers that we can pin, rather than many small byte[].
+            
+            This allows us to more efficiently pass byte-arrays to Parquet native API without having
+            a pinning handle per byte[] (and indirectly, strings).
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.Column">
+            <summary>
+            Column properties for constructing schema nodes from C# types.
+            This is a higher-level API not part of apache-parquet-cpp.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.Column.CreateSchemaNode">
+            <summary>
+            Create a schema node representing this column with its given properties.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.Column.CreateSchemaNode(ParquetSharp.LogicalTypeFactory)">
+            <summary>
+            Create a schema node representing this column with its given properties, using the given logical-type factory.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.Column.CreateSchemaNode(ParquetSharp.Column[],System.String)">
+            <summary>
+            Create a schema node containing all the given columns.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.Column.CreateSchemaNode(ParquetSharp.Column[],ParquetSharp.LogicalTypeFactory,System.String)">
+            <summary>
+            Create a schema node containing all the given columns, using the given logical-type factory.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnCryptoMetaData">
+            <summary>
+            Metadata related to the encryption/decryption of a column.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnDecryptionProperties">
+            <summary>
+            Properties related to decrypting one specific column.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnDecryptionPropertiesBuilder">
+            <summary>
+            Builder pattern for ColumnDecryptionProperties.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnDescriptor">
+            <summary>
+            The ColumnDescriptor encapsulates information necessary to interpret primitive column data in the context of a particular schema. 
+            We have to examine the node structure of a column's path to the root in the schema tree to be able to reassemble the nested structure
+            from the repetition and definition levels.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.ColumnDescriptor.GetSystemTypes(ParquetSharp.LogicalTypeFactory,System.Type)">
+            <summary>
+            Get the System.Type instances that represent this column.
+            PhysicalType is the actual type on disk (e.g. ByteArray).
+            LogicalType is the most nested logical type (e.g. string).
+            ElementType is the type represented by the column (e.g. string[][][]).
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnEncryptionProperties">
+            <summary>
+            Properties related to encrypting one specific column.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnEncryptionPropertiesBuilder">
+            <summary>
+            Builder pattern for ColumnEncryptionProperties.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnReader">
+            <summary>
+            Reader of physical Parquet values from a single column.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnReader`1">
+            <inheritdoc />
+        </member>
+        <member name="T:ParquetSharp.ColumnWriter">
+            <summary>
+            Writer of physical Parquet values to a single column.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ColumnWriter`1">
+            <inheritdoc />
+        </member>
+        <member name="T:ParquetSharp.Date">
+            <summary>
+            Represent a Parquet 32-bit date, based around 1970-01-01.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.DateTimeNanos">
+            <summary>
+            Represents a Parquet Timestamp with Nanoseconds time unit.
+            </summary>
+        </member>
+        <member name="F:ParquetSharp.DateTimeNanos.Ticks">
+            <summary>
+            Number of nanoseconds since 1970-01-01 00:00:00.
+            </summary>
+        </member>
+        <member name="P:ParquetSharp.DateTimeNanos.DateTime">
+            <summary>
+            Convert to System.DateTime with reduced precision.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.DateTimeNanos.ToString">
+            <summary>
+            Converts this DateTimeNanos object to a string using a default formatting string with nanosecond precision
+            and the current culture's formatting conventions.
+            </summary>
+            <returns>String representation of this DateTimeNanos object</returns>
+        </member>
+        <member name="M:ParquetSharp.DateTimeNanos.ToString(System.String,System.IFormatProvider)">
+            <summary>
+            Converts this DateTimeNanos object to a string using the specified format and culture-specific format
+            information.
+            </summary>
+            <param name="format">A standard or custom format string. This supports dotnet DateTime format specifiers
+            with the addition of "fffffffff" for the number of nanoseconds when using a custom format. If null, a
+            default formatting string with nanosecond precision is used.</param>
+            <param name="formatProvider">An object that supplies culture-specific formatting information. If null, the
+            current culture's formatting conventions are used.</param>
+            <returns>String representation of this DateTimeNanos object</returns>
+        </member>
+        <member name="F:ParquetSharp.DateTimeNanos.MinDateTimeValue">
+            <summary>
+            Minimum DateTime representable: 1677-09-21 00:12:43.
+            </summary>
+        </member>
+        <member name="F:ParquetSharp.DateTimeNanos.MaxDateTimeValue">
+            <summary>
+            Maximum DateTime representable: 2262-04-11 23:47:16.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.Decimal128">
+            <summary>
+            Internal struct for helping with C# System.Decimal.
+            
+            For C#, the scale is stored as a floating point exponent.
+            For Parquet, the scale is stored in the schema as a fixed point reference.
+            Parquet uses big-endian byte order, two's complement representation.
+            
+            13-bytes ought to be enough for C# max precision (29 digits). Round up to 16-bytes.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.DecryptionKeyRetriever">
+            <summary>
+            Map a decryption key to a key-metadata.
+            Serves as a callback by FileDecryptionProperties to access decryption keys whenever they are needed.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.DecryptionKeyRetriever.CreateGcHandle">
+             <summary>
+             The native code owns a GC handle on the given instance of DecryptionKeyRetriever.
+             This is the reverse from the rest of ParquetSharp where C# owns a native handle into arrow::parquet.
+            
+             See https://docs.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.gchandle?view=netcore-3.1
+             </summary>
+        </member>
+        <member name="T:ParquetSharp.ExceptionInfo">
+            <summary>
+            Marshaling logic for exceptions from the native C/C++ code to the managed layer.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.FileDecryptionProperties">
+            <summary>
+            Properties related to decrypting a parquet file.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.FileDecryptionPropertiesBuilder">
+            <summary>
+            Builder pattern for FileDecryptionProperties.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.FileEncryptionProperties">
+            <summary>
+            Properties related to encrypting a parquet file.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.FileEncryptionPropertiesBuilder">
+            <summary>
+            Builder pattern for FileEncryptionProperties.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.FixedLenByteArray">
+            <summary>
+            Represents a Parquet fixed-length array of contiguous bytes.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IColumnDescriptorVisitor`1">
+            <summary>
+            Visitor on ColumnDescriptor to discover the system types in a type safe manner.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IColumnReaderVisitor`1">
+            <summary>
+            Visitor on ColumnReader to discover the derived reader type in a type safe manner.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IColumnWriterVisitor`1">
+            <summary>
+            Visitor on ColumnWriter to discover the derived writer type in a type safe manner.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ILogicalColumnReaderVisitor`1">
+            <summary>
+            Visitor on LogicalColumnReader to discover the derived reader type in a type safe manner.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ILogicalColumnWriterVisitor`1">
+            <summary>
+            Visitor on LogicalColumnWriter to discover the derived writer type in a type safe manner.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.Int96">
+            <summary>
+            Represents a Parquet 96-bit signed integer.
+            This is obsolete (see https://issues.apache.org/jira/browse/PARQUET-323).
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.Buffer">
+            <summary>
+            Points to a piece of contiguous memory.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.BufferOutputStream">
+            <summary>
+            An output stream that writes to a resizable buffer.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.BufferReader">
+            <summary>
+            Random access zero-copy reads on a Buffer.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.ManagedOutputStream">
+            <summary>
+            Managed wrapper around arrow::io::OutputStream that takes in a .NET Stream instance.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.ManagedRandomAccessFile">
+            <summary>
+            Managed wrapper around arrow::io::RandomAccessFile that takes in a .NET Stream instance.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.OutputStream">
+            <summary>
+            Wrapper around arrow::io::OutputStream.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.RandomAccessFile">
+            <summary>
+            Wrapper around arrow::io::RandomAccessFile.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.IO.ResizableBuffer">
+            <summary>
+            A mutable buffer that can be resized.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalColumnReader">
+            <summary>
+            Column reader transparently converting Parquet physical types to C# types.
+            This is a higher-level API not part of apache-parquet-cpp.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalColumnReader`3.ReadBatchSimple``1(ParquetSharp.Schema.Node,System.Span{``0},ParquetSharp.LogicalRead{``0,`0}.DirectReader,ParquetSharp.LogicalRead{``0,`0}.Converter,System.Int16)">
+            <summary>
+            Fast implementation when a column contains only flat primitive values.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalColumnWriter">
+            <summary>
+            Column writer transparently converting C# types to Parquet physical types.
+            This is a higher-level API not part of apache-parquet-cpp.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalColumnWriter`3.WriteArrayFinalLevel(System.Array,System.Int16,System.Int16,System.Int16,System.Int16)">
+            <summary>
+            Write implementation for writing the deepest level array.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalColumnWriter`3.WriteBatchSimple``1(System.ReadOnlySpan{``0})">
+            <summary>
+            Fast implementation when a column contains only flat primitive values.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalRead`2">
+            <summary>
+            Parquet physical types to C# types read conversion logic.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalRead">
+            <summary>
+            Parquet physical types to C# types read conversion logic.
+            Separate class for per-element conversion logic.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalReadConverterFactory">
+            <summary>
+            Extendable class that handles the mapping between a Parquet physical type and the C# logical type when reading values.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalReadConverterFactory.GetDirectReader``2">
+            <summary>
+            Return a reader delegate if a TPhysical column reader can directly write into a TLogical span (e.g. float to float, int to uint, etc).
+            Otherwise return null. This is an optimisation to avoid needless memory copies between buffers (i.e. otherwise we have to use the
+            identity converter).
+            </summary>
+            <returns>
+            A delegate of type LogicalRead&lt;TLogical, TPhysical&gt;.DirectReader
+            </returns>
+        </member>
+        <member name="M:ParquetSharp.LogicalReadConverterFactory.GetConverter``2(ParquetSharp.ColumnDescriptor,ParquetSharp.ColumnChunkMetaData)">
+            <summary>
+            Return a converter delegate that converts a TPhysical readonly-span to a TLogical span.
+            </summary>
+            <returns>
+            A delegate of type LogicalRead&lt;TLogical, TPhysical&gt;.Converter
+            </returns>
+            <param name="columnDescriptor">The descriptor of the column to be converted.</param>
+            <param name="columnChunkMetaData">The metadata of the column-chunk to be converted.</param>
+        </member>
+        <member name="M:ParquetSharp.LogicalTypeFactory.TryGetParquetTypes(System.Type,System.ValueTuple{ParquetSharp.LogicalType,ParquetSharp.Repetition,ParquetSharp.PhysicalType}@)">
+            <summary>
+            Get the mapping from the C# types to the Parquet logical and physical types.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalTypeFactory.GetSystemTypes(ParquetSharp.ColumnDescriptor,System.Type)">
+            <summary>
+            Get the mapping from a column descriptor to the actual C# physical and logical element types.
+            If we know the exact column logical type, use that instead (i.e. user custom types).
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalTypeFactory.IsSupported(System.Type)">
+            <summary>
+            Query whether the given C# type is supported and a schema node can potentially be created.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalTypeFactory.GetSystemTypes(ParquetSharp.ColumnDescriptor)">
+            <summary>
+            Get the mapping from a column descriptor to the actual C# physical and logical element types.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalTypeFactory.GetTypesOverride(ParquetSharp.LogicalType,ParquetSharp.LogicalType,ParquetSharp.PhysicalType)">
+            <summary>
+            Get a new pair of (LogicalType, PhysicalType) taking into account an optional logical type override.
+            </summary>
+        </member>
+        <member name="F:ParquetSharp.LogicalTypeFactory.DefaultPrimitiveMapping">
+            <summary>
+            List of default mapping for each supported C# type.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalWrite`2">
+            <summary>
+            C# types to Parquet physical types write conversion logic.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalWrite">
+            <summary>
+            C# types to Parquet physical types write conversion logic.
+            Separate class for per-element conversion logic.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.LogicalWriteConverterFactory">
+            <summary>
+            Extendable class that handles the mapping between a C# logical type and the Parquet physical type when writing values.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.LogicalWriteConverterFactory.GetConverter``2(ParquetSharp.ColumnDescriptor,ParquetSharp.ByteBuffer)">
+            <summary>
+            Return a converter delegate that converts a TLogical readonly-span to a TPhysical span.
+            </summary>
+            <returns>
+            A delegate of type LogicalWrite&lt;TLogical, TPhysical&gt;.Converter
+            </returns>
+            <param name="columnDescriptor">The descriptor of the column to be converted.</param>
+            <param name="byteBuffer">The ByteBuffer allocation pool for efficiently handling byte arrays.</param>
+        </member>
+        <member name="T:ParquetSharp.MemoryPool">
+            <summary>
+            Base class for memory allocation on the CPU. Tracks the number of allocated bytes.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ParquetException">
+            <summary>
+            Exception thrown by apache-parquet-cpp or the ParquetSharp wrapping logic.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.ParquetFileWriter.Close">
+            <summary>
+            Close the file writer as well any column or group writers that are still opened.
+            This is the recommended way of closing Parquet files, rather than relying on the Dispose() method,
+            as the latter will gobble exceptions.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.ParquetHandle">
+            <summary>
+            Associate a native handle with its corresponding resource release method.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.RowOriented.MapToColumnAttribute">
+            <summary>
+            Explicitly map the given field to a specific column name.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.RowOriented.ParquetFile">
+            <summary>
+            Static factory for creating row-oriented Parquet readers and writers.
+            This is a higher-level API not part of apache-parquet-cpp.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.RowOriented.ParquetFile.CreateRowReader``1(System.String)">
+            <summary>
+            Create a row-oriented reader from a file.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.RowOriented.ParquetFile.CreateRowReader``1(ParquetSharp.IO.RandomAccessFile)">
+            <summary>
+            Create a row-oriented reader from an input stream.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.RowOriented.ParquetFile.CreateRowWriter``1(System.String,System.String[],ParquetSharp.Compression,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Create a row-oriented writer to a file. By default, the column names are reflected from the tuple public fields and properties.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.RowOriented.ParquetFile.CreateRowWriter``1(ParquetSharp.IO.OutputStream,System.String[],ParquetSharp.Compression,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Create a row-oriented writer to an output stream. By default, the column names are reflected from the tuple public fields and properties.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.RowOriented.ParquetFile.CreateReadDelegate``1(System.ValueTuple{System.String,System.String,System.Type,System.Reflection.MemberInfo}[])">
+            <summary>
+            Returns a delegate to read rows from individual Parquet columns.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.RowOriented.ParquetFile.CreateWriteDelegate``1">
+            <summary>
+            Return a delegate to write rows to individual Parquet columns, as well the column types and names.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.RowOriented.ParquetRowReader`1">
+            <summary>
+            Parquet file reader abstracting away the column-oriented nature of Parquet files, returns lists of rows instead.
+            This is a higher-level API not part of apache-parquet-cpp.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.RowOriented.ParquetRowReader`1.ExplicitColumnMapping">
+            <summary>
+            Glorified dictionary that helps us map a field to an explicitly given column name.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.RowOriented.ParquetRowWriter`1">
+            <summary>
+            Parquet file writer abstracting away the column-oriented nature of Parquet files, writes lists of rows instead.
+            This is a higher-level API not part of apache-parquet-cpp.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.Schema.Node">
+            <summary>
+            Base class for logical schema types. A type has a name, repetition level, and optionally a logical type.
+            </summary>
+        </member>
+        <member name="M:ParquetSharp.Schema.Node.DeepClone">
+            <summary>
+            Deep cloning of the node. If the node is a group node, its children will be deep cloned as well.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.Schema.PrimitiveNode">
+            <summary>
+            A type that is one of the primitive Parquet storage types.
+            In addition to the other type metadata (name, repetition level, logical type), also has the
+            physical storage type and their type-specific metadata (byte width, decimal parameters)
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.TimeSpanNanos">
+            <summary>
+            Represents a Parquet Time with Nanoseconds time unit.
+            </summary>
+        </member>
+        <member name="F:ParquetSharp.TimeSpanNanos.Ticks">
+            <summary>
+            Number of nanoseconds since midnight.
+            </summary>
+        </member>
+        <member name="P:ParquetSharp.TimeSpanNanos.TimeSpan">
+            <summary>
+            Convert to System.TimeSpan with reduced precision.
+            </summary>
+        </member>
+        <member name="T:ParquetSharp.WriterPropertiesBuilder">
+            <summary>
+            Builder pattern for WriterProperties.
+            </summary>
+        </member>
+    </members>
+</doc>
